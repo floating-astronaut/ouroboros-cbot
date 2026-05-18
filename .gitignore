@@ -1,0 +1,20 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.algo.metadata
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# cTrader output bundle is committed (see Ouroboros/bin/Release/net6.0/cbot.algo)
+# but we want fresh builds for downloads, so we ship the source not the .algo.

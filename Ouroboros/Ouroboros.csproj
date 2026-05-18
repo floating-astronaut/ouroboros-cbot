@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDefaultItems>False</EnableDefaultItems>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cAlgo.Robots</RootNamespace>
+    <AssemblyName>Ouroboros</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="cTrader.Automate" Version="*-*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ouroboros.cs" />
+    <Compile Include="Core\Signal.cs" />
+    <Compile Include="Core\Whitelist.cs" />
+    <Compile Include="Core\SignalBus.cs" />
+    <Compile Include="Core\PositionSizer.cs" />
+    <Compile Include="Core\RiskGuard.cs" />
+    <Compile Include="Strategies\IStrategy.cs" />
+    <Compile Include="Strategies\MomentumHunter.cs" />
+    <Compile Include="Strategies\MambaReversion.cs" />
+    <Compile Include="Strategies\SessionAnalyst.cs" />
+    <Compile Include="Strategies\TrendFollower.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
