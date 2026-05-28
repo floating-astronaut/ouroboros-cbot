@@ -2,7 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-cTrader-blue.svg)](https://ctrader.com)
-[![Language](https://img.shields.io/badge/lang-C%23%20%2F%20.NET%206-512BD4.svg)]()
+[![Language](https://img.shields.io/badge/lang-C%23%20%2F%20.NET%208-512BD4.svg)](https://dotnet.microsoft.com/)
+[![GitHub stars](https://img.shields.io/github/stars/floating-astronaut/ouroboros-cbot?style=social)](https://github.com/floating-astronaut/ouroboros-cbot)
+
+> A portfolio piece by [Nuraveda Lab](https://github.com/Nuraveda-Labs). Mirrored on
+> [GitHub](https://github.com/floating-astronaut/ouroboros-cbot) ·
+> [GitLab](https://gitlab.com/floating-astronaut/ouroboros-cbot) ·
+> [Codeberg](https://codeberg.org/floating-astronaut/ouroboros-cbot).
 
 Six ML bots — viper (M5), hydra (M1), mamba (M15), taipan (M30), cobra (H1),
 anaconda (H4) — merged into one cBot through a data-driven whitelist derived
@@ -86,7 +92,7 @@ cbot/
 Local sanity-check with the .NET 8 SDK:
 
 ```bash
-cd /opt/glitch-ouroboros/cbot
+# from the repo root
 dotnet build Ouroboros.sln -c Release
 ```
 
