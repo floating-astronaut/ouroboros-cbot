@@ -2,10 +2,10 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Ouroboros")]
-[assembly: AssemblyDescription("Nuraveda Lab — six-bot ML ensemble merged into one cBot.")]
-[assembly: AssemblyCompany("Nuraveda Lab")]
+[assembly: AssemblyDescription("Six-bot ML ensemble merged into one cBot.")]
+[assembly: AssemblyCompany("Tejas Karan Agrawal")]
 [assembly: AssemblyProduct("Ouroboros")]
-[assembly: AssemblyCopyright("Copyright © Nuraveda Lab 2026")]
+[assembly: AssemblyCopyright("Copyright © Tejas Karan Agrawal 2026")]
 [assembly: ComVisible(false)]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

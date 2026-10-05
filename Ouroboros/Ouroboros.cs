@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-//  Ouroboros — Nuraveda Lab
+//  Ouroboros — Tejas Karan Agrawal
 //  Six ML bots (viper M5, hydra M1, mamba M15, taipan M30, cobra H1, anaconda H4)
 //  merged into one cBot. Strategies are C# ports of the Python originals; the
 //  bot×symbol whitelist is compiled from 3,253 closed demo trades (positive

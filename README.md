@@ -5,7 +5,7 @@
 [![Language](https://img.shields.io/badge/lang-C%23%20%2F%20.NET%208-512BD4.svg)](https://dotnet.microsoft.com/)
 [![GitHub stars](https://img.shields.io/github/stars/floating-astronaut/ouroboros-cbot?style=social)](https://github.com/floating-astronaut/ouroboros-cbot)
 
-> A portfolio piece by [Nuraveda Lab](https://github.com/Nuraveda-Labs). Mirrored on
+> A portfolio piece by [Tejas Karan Agrawal](https://github.com/floating-astronaut). Mirrored on
 > [GitHub](https://github.com/floating-astronaut/ouroboros-cbot) ·
 > [GitLab](https://gitlab.com/floating-astronaut/ouroboros-cbot) ·
 > [Codeberg](https://codeberg.org/floating-astronaut/ouroboros-cbot).
